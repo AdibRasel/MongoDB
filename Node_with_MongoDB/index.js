@@ -8,9 +8,10 @@ MongoClient.connect(url, function(error, result){
         console.log("Your Connact Faild")
     }else{
         console.log("Your Connect Success");
-        datainsert(result)
+        // datainsert(result)
         // dataDelete(result)
         // deleteAllItem(result)
+        // findOnewithoutcondition(result)
     }
 })
 
@@ -72,7 +73,14 @@ function findOnewithoutcondition(result){
     const myDatabase = result.db("school")
     const mycollaction = myDatabase.collection("student");
 
-    mycollaction.findOne
+    var findOvj ={rool_no:"04"};
+
+    mycollaction.findOne(findOvj, function(error, findresult){
+        // console.log(result)
+    mycollaction.findOne(findOvj, function(error, resultdata){
+        console.log(resultdata)
+    })
+    })
 
 }
 
