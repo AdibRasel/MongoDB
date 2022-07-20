@@ -1,6 +1,6 @@
 const MongoClient = require("mongodb").MongoClient;
 
-const url = "mongodb+srv://AdibRasel_Demo:KdWdv0oAYeCixIaf@cluster0.7fmcvan.mongodb.net/?retryWrites=true&w=majority";
+const url = "mongodb://127.0.0.1:27017";
 
 
 MongoClient.connect(url, function(error, result){
@@ -28,8 +28,8 @@ function datainsert(result){
     const mycollaction = myDatabase.collection("student");
     
     const anyDAta = {
-        name:"o kuddiccs",
-        rool_no: "04",
+        name:"Rasel Hossain Adib",
+        rool_no: "05",
         student_id: "5588",
         mobile_no: "010000000",
         email_address:"jani na"
