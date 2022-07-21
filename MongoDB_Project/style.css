@@ -1,0 +1,66 @@
+*{
+    margin: auto;
+    padding: auto;
+}
+body{
+    background-image: url(MongoDB_3.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 1000px;
+}
+
+.header{
+    height: 80px;
+    background-color: #6495edd4;
+    width: 100%;
+    margin: auto;
+}
+.header h1{
+    text-align: center;
+    color:white;
+    padding-top: 20px;
+}
+
+marquee{
+    padding: 5px;
+    color:white;
+    background-color:#4169e178;
+    margin: 0px;
+    display: block;
+}
+
+.main_content{
+    width: 80%;
+    margin: auto;
+    background-color: #259dfdf0;
+    height: 600px;
+    padding: 10px;
+    color: black;
+    box-sizing: border-box;
+    box-shadow: 0px 3px 2px 2px white;
+}
+
+.name{
+    padding: 10px;
+    width: 50%;
+    margin-top: 15px;
+    border-radius: 10px;
+    /* box-shadow: 0px 2px 2px 2px white; */
+    display: block;
+}
+.btn{
+    padding: 10px;
+    width: 50%;
+    margin-top: 15px;
+    border-radius: 10px;
+    /* box-shadow: 0px 2px 2px 2px white; */
+    display: block;
+    font-weight: bold;
+    background-color: #4169e178;
+
+}
+.btn:hover{
+    background-color: #00e2ff;
+    color:black
+}
