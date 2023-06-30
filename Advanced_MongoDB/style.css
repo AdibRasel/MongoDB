@@ -1,0 +1,39 @@
+.main_contant{
+
+}
+.main_left_side{
+    width: 50%;
+}
+.main_right_side{
+    width: 50%;
+}
+
+.main_right_side img{
+    height: 400px;
+    max-height: auto;
+}
+
+
+.main_left_side ul{
+
+}
+.main_left_side ul a li{
+    background-color: #00684a;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 700ms;
+    margin-bottom: 5px;
+
+}
+.main_left_side ul a{
+    color: #00ed64;
+    text-decoration: none;
+    transition: 700ms;
+}
+
+.main_left_side ul a li:hover{
+    background-color: #198345;
+}
+.main_left_side ul a:hover{
+    color: rgb(255, 255, 255);
+}
