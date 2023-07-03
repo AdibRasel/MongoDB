@@ -4,7 +4,7 @@ const controller = require("./controller")
 
 
 
-Router.post("/test", controller.test)
+Router.get("/test", controller.test)
 
 
 
