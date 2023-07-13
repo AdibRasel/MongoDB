@@ -18,12 +18,13 @@
 
 }
 .main_left_side ul a li{
-    background-color: #00684a;
+    background-color: #343a40;
     padding: 5px;
     border-radius: 10px;
     transition: 700ms;
     margin-bottom: 5px;
-
+    font-size: 20px;
+    font-weight: bold;
 }
 .main_left_side ul a{
     color: #00ed64;
