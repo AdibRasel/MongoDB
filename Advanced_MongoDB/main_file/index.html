@@ -14,11 +14,11 @@
 
     <style>
     .main_box{
-    height: auto;
+    height: 500px;
     }
     </style>
 
-    <title>Group গ্রুপ। </title>
+    <title>MongoDB</title>
   </head>
   <body>
     <!-- main section  -->
@@ -40,7 +40,7 @@
                     <!-- menu link  -->
                     <ul class="navbar-nav mr-auto">
                     <li class="nav-item active">
-                      <a class="nav-link" href="../../index.html">Home <span class="sr-only">(current)</span></a>
+                      <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                     </li>
                     
               </nav>
@@ -51,62 +51,20 @@
 
             <nav aria-label="breadcrumb">
               <ol class="breadcrumb">
-                <!-- <li class="breadcrumb-item active" aria-current="page">Home</li> -->
-                <li class="breadcrumb-item active"><a href="../../index.html">Home</a></li>
-                <li class="breadcrumb-item"><a href="../index.html">Advanced MongoDB</a></li>
-                <li class="breadcrumb-item active" aria-current="page">Group গ্রুপ। </li>
+                <li class="breadcrumb-item active" aria-current="page">Home</li>
+                <!-- <li class="breadcrumb-item active"><a href="#">Home</a></li> -->
+                <!-- <li class="breadcrumb-item"><a href="#">Library</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Data</li> -->
               </ol>
             </nav>
 
             <!-- main contant  -->
             <div class="main_contant">
 
-              <div class="shadow-lg p-3 mb-5 bg-info rounded font-bold text-white">
-                <h3 class="text-center">$group করে নির্দিষ্ট কালেকশনের উপর সেম নামের যত ডাটা আছে সে গুলো থেকে একটি করে ডাটা শো করবে। 
-                  <br>
-                  $group এর কাজ find({}) মেথড দিয়ে করা যায় না। শুধু মাত্র aggregate([{}]) মেথড দিয়ে করতে হয়। </h3>
-
-                <img src="./image/Group.png" class="" alt="">
-
-              </div>
               
-              <div class="shadow-lg p-3 mb-5 bg-info rounded font-bold text-white">
-                <h3>Group By Sum- গ্রুপ করে যোগফল বের করা। <br> প্রতি সিটি $city তে টোটাল কত টাকা স্যালেরি সেটা বাহির করা।
-                  নোয়াখালীতে ১০ জনের স্যালেরি কত?
-                  লক্ষিপুরে ১৫ জনের স্যালেরি কত?
-                  ঢাকা তে ৫ জনের স্যালেরি কত?
-                  এইগুলো $group ভাই $sum দিয়ে বের করা যায়। </h3>
-                  <img src="./image/Group_By_Sum.png" alt="">
-              </div>
-
-              <div class="shadow-lg p-3 mb-5 bg-info rounded font-bold text-white">
-                <h3>প্রতি $city সিটি তে $avg স্যালেরি কত? কোড</h3>
-                  <img src="./image/Group_By_avg.png" alt="">
-              </div>
-
-              <div class="shadow-lg p-3 mb-5 bg-info rounded font-bold text-white">
-                <h3>কার $Name নাম এ $max মেক্সিমাম স্যালেরি কত? কোড</h3>
-                  <img src="./image/Group_By_max.png" alt="">
-              </div>
-
               
-              <div class="shadow-lg p-3 mb-5 bg-info rounded font-bold text-white">
-                <h3>$min মিনিমাম বের করা। কোড</h3>
-                  <img src="./image/Group_By_min.png" alt="">
-              </div>
-
-              
-              <div class="shadow-lg p-3 mb-5 bg-info rounded font-bold text-white">
-                <h3>$group ছাড়া সব গুলো কালেকশানে $sum, $avg, $min, $max বের করা।</h3>
-                  <img src="./image/Not_Group_By_All.png" alt="">
-              </div>
 
 
-              <div class="shadow-lg p-3 mb-5 bg-info rounded font-bold text-white">
-                <h3>Group By Muliple. মাল্টিপল কালেকশে গ্রুপ করা।</h3>
-                  <img src="./image/Multiple_Group.png" alt="">
-                  <img src="./image/Multiple_Group_Code.png" alt="">
-              </div>
 
 
 
