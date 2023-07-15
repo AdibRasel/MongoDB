@@ -2,3 +2,4 @@ Class - 10 dekhte hobe
 Class - 14 dekhte hobe
 Class - 15 dekhte hobe
 class 17 complate
+class 22- join by lookup operator- valo kore dekhte hobe
